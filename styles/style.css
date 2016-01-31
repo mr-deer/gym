@@ -370,7 +370,7 @@ button:active, button:hover {
 }
 
 #aboutMe {
-    background: url("../images/aboutMe.png") no-repeat;
+    background: #1b1b2a url("../images/aboutMe.png") no-repeat;
     background-size: auto;
     height: 1541px;
 }
