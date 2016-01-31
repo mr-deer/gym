@@ -366,16 +366,14 @@ button:active, button:hover {
 }
 
 #aboutMe {
-    background-image: url("../images/aboutMe.png");
-    background-repeat: no-repeat;
+    background: url("../images/aboutMe.png") no-repeat;
     background-size: auto;
     height: 1541px;
 }
 
 #myStudents {
     text-align: center;
-    background-image: url("../images/Mystudensbackground.png");
-    background-repeat: no-repeat;
+    background: url("../images/Mystudensbackground.png") no-repeat;
 }
 
 .studentsText {
@@ -446,19 +444,41 @@ button:active, button:hover {
 }
 
 .contactsWrapper {
+    text-align: center;
     position: relative;
-    height: 737px;
+    height: 673px;
     background: url("../images/newContactsBackground.png") no-repeat right;
 }
 
 #contactsButton {
-    position: absolute;
-    top: 50%;
-    left:50%;
-    margin-left: -139.5px;
-    margin-top: -44.5px;
+    margin-top: 40px;
     color: #31f155;
     border: 3px solid #31f155;
     box-shadow: 0px 0px 7px 0px #31f155;
     text-shadow: 0px 0px 15px #31f155;
+}
+
+.wrap {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -12.4%;
+    width: 24.8%;
+    height: 100%;
+}
+
+.wrap div {
+    display: inline-block;
+    padding-top: 224px;
+    font-family: 'LatoWebMedium';
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#bigText {
+    margin-top: 50px;
+    font-family: 'LatoWeb';
+    font-size: 20px;
+    padding:0;
 }
