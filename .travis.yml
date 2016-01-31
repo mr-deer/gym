@@ -1,0 +1,13 @@
+install: true
+script: true
+deploy:
+  provider: s3
+  access_key_id: AKIAIJTJ7NMVXBI3WASQ
+  secret_access_key:
+    secure: UupByvCjoqmFG1P5v+3l5n0+rXFXeKhw2f88fX2chf6hkzn4UDcwLi3LCPISXGHHfuGTD0bukB9TRWKWdm/UccnIai/rlKCJTsAQCqLSQLf75DDxZQhBuLuqsJ+VN9WLT8+eDdnCVL2tOng4N0aFVpo/SbbM7LsrIde1lNI1njOPKXVgLn7AypRD4TCEi+B1DHTKqFqmorzo4MaUMa5Mw2L/1q8sIuP+gnPlXn7601rkfZPL6k6wjM8o4TkuFDv+bJIiB7MCDYpgNg+B0SZNdumDYCf6CluF8UXQHwXVcsePb0WjADdyHitZAikNKEVM4f6m42uMuuOqq/i/uxZxKZt+hYbFUAZPcG622Wwi6mcL4MTj8l/wMb7utMu19ttyd2Mp/tsPMT6MsDFnywvWM558DbzDPWI/DRBQOKb9CIxzZdcGlC86i6wxCElb1gUavwJYy5kiPvewC2Wb2OnrJ+XhlK6bHBeCWBSlAhvLnADYk1xbymwYqtgYQe4SD9RBT2/qmngNdvLtCjANdbluFLF+6/qAv6gF4PXn5Z1qC7WXTg4LxxjYNtm2WsRT8WyzUl0pCDnrXjZa+pv8YEh3+Kpd881Ef70o+hwvyko1anRsMDTTDBl4TXxbaFfgSiDXulNv72X3SMxz8YMdiQIGMa7jcEH0y5v5MuSB6rH1RZk=
+  bucket: gym.mrdeer.net
+  skip_cleanup: true
+  acl: public_read
+  region: eu-central-1
+  on:
+    repo: mr-deer/gym
