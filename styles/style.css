@@ -36,6 +36,8 @@ body {
 }
 
 #index {
+    height: 100%;
+    width: auto;
     position: absolute;
     top: 0;
     left: 50%;
@@ -62,7 +64,7 @@ TODO: Andrey Title
 .nameBlock {
     position: absolute;
     top: 0;
-    left: 357px;
+    left: 23%;
     font-family: "Attentica4F", serif;
     font-size: 197px;
     line-height: 210px;
@@ -74,19 +76,20 @@ TODO: Andrey Title
     z-index: 1;
     height: 42vh;
     /* background-color: #10fc47; */
+    /*viewport width*/
+    font-size: 10.2vw;
+    letter-spacing: 3.1vw;
+    line-height: 10.9vw;
 }
 
 .personalTrainer {
     padding-bottom: 138px;
-    /* position: absolute; */
-    /* right: 93px; */
     top: 45%;
-    /* margin-left: 16px; */
-   /* text-shadow: 0 0 166px rgba(51, 51, 255, .45);*/
-    text-shadow: 0px 24px 55px rgba(51, 51, 255, 1), 0 -14px 34px rgba(51, 51, 255, 1), 33px 0px 55px rgba(51, 51, 255, 1), -33px 0px 34px rgba(51, 51, 255, 1);
-    /* float: left; */
+    text-shadow: 0px 24px 55px rgba(51, 51, 255, 1),
+        0 -14px 34px rgba(51, 51, 255, 1),
+        33px 0px 55px rgba(51, 51, 255, 1),
+        -33px 0px 34px rgba(51, 51, 255, 1);
     text-align: center;
-    /* width: 320px; */
     font-size: 24px;
     line-height: 48px;
     color: #ffffff;
@@ -182,9 +185,7 @@ button:active, button:hover {
 }
 
 #aboutPersonal {
-    background-image: url("../images/backgroundpersonaltrainer.png");
-    background-position: 0 0;
-    background-repeat: no-repeat;
+    background: url("../images/backgroundpersonaltrainer.png") no-repeat 0 0;
 }
 
 #hands {
@@ -204,134 +205,6 @@ button:active, button:hover {
     text-transform: uppercase;
 }
 
-#blue {
-    font-family: 'LatoWebHairline';
-    text-align: right;
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 70px;
-    color: #3399ff;
-    font-weight: 100;
-    line-height: 38px;
-    letter-spacing: 5px;
-}
-
-#blue span {
-    font-family: 'LatoWebHairline';
-    font-size: 32px;
-}
-
-#yellow {
-    font-family: 'LatoWebHairline';
-    position: absolute;
-    top: -13px;
-    left: 777px;
-    font-size: 35px;
-    color: #fcfc5f;
-    font-weight: 100;
-    letter-spacing: 3px;
-    line-height: 35px;
-
-}
-
-#yellow span {
-    font-family: 'LatoWebHairline';
-    letter-spacing: 8px;
-    font-size: 62px;
-
-}
-
-#orange {
-    font-family: 'LatoWebHairline';
-    text-align: right;
-    position: absolute;
-    top: 81px;
-    left: 110px;
-    font-size: 106px;
-    color: #ffb22d;
-    font-weight: 100;
-    line-height: 33px;
-}
-
-#orange span {
-    font-family: 'LatoWebHairline';
-    letter-spacing: normal;
-    font-size: 26px;
-}
-
-#green {
-    font-family: 'LatoWebHairline';
-    text-align: left;
-    position: absolute;
-    top: 127px;
-    left: 208px;
-    font-size: 56px;
-    color: #10fc47;
-    font-weight: 100;
-    line-height: 49px;
-    letter-spacing: 6px;
-}
-
-#green span {
-    font-family: 'LatoWebHairline';
-    font-size: 35px;
-    letter-spacing: 1px;
-}
-
-#green1 {
-    font-family: 'LatoWebHairline';
-    font-size: 56px !important;
-    letter-spacing: 9px !important;
-}
-
-#purple {
-    font-family: 'LatoWebHairline';
-    text-align: left;
-    position: absolute;
-    top: 84px;
-    left: 642px;
-    font-size: 66px;
-    color: #d172fd;
-    font-weight: 100;
-    line-height: 45px;
-}
-
-#purple span {
-    font-family: 'LatoWebHairline';
-    font-size: 32px;
-}
-
-#red {
-    font-family: 'LatoWebHairline';
-    text-align: left;
-    position: absolute;
-    top: 82px;
-    left: 883px;
-    font-size: 45px;
-    color: #cc6699;
-    font-weight: 100;
-    line-height: 45px;
-    letter-spacing: 5px;
-}
-
-#red span {
-    font-family: 'LatoWebHairline';
-    font-size: 40px;
-}
-
-#white {
-    font-family: 'LatoWebHairline';
-    text-align: left;
-    position: absolute;
-    top: 210px;
-    left: 633px;
-    font-size: 66px;
-    color: #ffffff;
-    font-weight: 100;
-    line-height: 45px;
-    letter-spacing: 8px;
-}
 
 .aboutSlogan {
     font-family: 'LatoWebHairline';
@@ -376,6 +249,7 @@ button:active, button:hover {
 }
 
 #myStudents {
+    height: auto;
     text-align: center;
     background: url("../images/Mystudensbackground.png") no-repeat;
 }
@@ -411,11 +285,7 @@ button:active, button:hover {
 }
 
 #myStudentsButton {
-    display: block;
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    margin-left: -139.5px;
+    margin: 100px 0;
 }
 
 .myStudentsText {
