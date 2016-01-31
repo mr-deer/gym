@@ -1,0 +1,464 @@
+@font-face {
+    font-family: "Attentica4F";
+    src: url("../fonts/Attentica4F-UltraLight.otf") format("otf");
+    src: url("../fonts/Attentica 4F UltraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*@font-face {
+    font-family: "LatoRegular";
+    src: url("../fonts/latoregular-webfont.woff") format("woff");
+    src: url("../fonts/latoregular-webfont.woff2") format("woff2");
+}
+@font-face {
+    font-family: "LatoHairline";
+    src: url("../fonts/Lato-Hairline.ttf") format("truetype");
+}*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "LatoWeb", serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.screenWrapper {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(44, 38, 66);
+}
+
+#index {
+    background-image: url("../images/index_andrey.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*
+TODO: Andrey Title
+.andrejCiprusevich {
+    font-family: "Attentica4F";
+    font-size: 209px;
+    line-height: 150px;
+    text-shadow: 1px 0px 115px rgb(195, 15, 247); !*Поменять значения позже*!
+    !*width: 80%;
+    margin: 0 auto;*!
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 70px;
+    text-transform: uppercase;
+    z-index: 1; !*закрываес имя картинкой*!
+}*/
+
+.nameBlock {
+    position: absolute;
+    top: 0;
+    left: 357px;
+    font-family: "Attentica4F";
+    font-size: 197px;
+    line-height: 210px;
+    text-shadow: 1px 0px 115px rgb(195, 15, 247);
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 60px;
+    text-transform: uppercase;
+    z-index: 1;
+    height: 42vh;
+    /* background-color: #10fc47; */
+}
+
+.personalTrainer {
+    padding-bottom: 138px;
+    /* position: absolute; */
+    /* right: 93px; */
+    top: 45%;
+    /* margin-left: 16px; */
+    text-shadow: 0 0 166px rgba(51, 51, 255, .45);
+    /* float: left; */
+    text-align: center;
+    /* width: 320px; */
+    font-size: 24px;
+    line-height: 48px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+}
+
+.contentWrap {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    bottom: 227px;
+}
+
+.clear {
+    width: 100%;
+    clear: both
+
+}
+
+.buttonWrap {
+    text-align: center;
+    position: absolute;
+    bottom: 18%;
+    right: 154px;
+    width: 24.7%;
+}
+
+.slogan {
+    text-shadow: 0 0 166px rgba(51, 51, 255, .45);
+    float: left;
+    text-align: center;
+    width: 21.6%;
+    font-size: 24px;
+    line-height: 42px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 21%;
+    left: 116px;
+    letter-spacing: 6px;
+}
+
+.button {
+    box-shadow: 2px 3px 7px 0px rgba(195, 15, 247, .35);
+    text-shadow: 0px 0px 15px rgb(195, 15, 247);
+    height: 89px;
+    width: 279px;
+    background-color: transparent;
+    border: 3px solid rgb(195, 15, 247);
+    border-radius: 10px;
+    color: rgb(195, 15, 247);
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+
+button:active, button:hover {
+    outline: none;
+}
+
+.buttonAnnotation {
+    text-transform: uppercase;
+    text-shadow: 0 0 166px rgba(51, 51, 255, .45);
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 47px;
+    letter-spacing: 5px;
+}
+
+.nextScreen {
+    min-width: 37%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -18.5%;
+    text-align: center;
+}
+
+.nextScreen span {
+    color: rgba(255, 255, 255, .8);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 15px rgba(0, 255, 0, .3);
+}
+
+.nextScreen button {
+    border: none;
+    outline: none;
+}
+
+#aboutPersonal {
+    background-image: url("../images/backgroundpersonaltrainer.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+#hands {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 61px;
+    width: 42%;
+    height: auto;
+}
+
+.wordsCloud {
+    min-height: 280px;
+    position: relative;
+    width: 68%;
+    margin: 50px auto;
+    text-transform: uppercase;
+}
+
+#blue {
+    font-family: 'LatoWebHairline';
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 70px;
+    color: #3399ff;
+    font-weight: 100;
+    line-height: 38px;
+    letter-spacing: 5px;
+}
+
+#blue span {
+    font-family: 'LatoWebHairline';
+    font-size: 32px;
+}
+
+#yellow {
+    font-family: 'LatoWebHairline';
+    position: absolute;
+    top: -13px;
+    left: 777px;
+    font-size: 35px;
+    color: #fcfc5f;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 35px;
+
+}
+
+#yellow span {
+    font-family: 'LatoWebHairline';
+    letter-spacing: 8px;
+    font-size: 62px;
+
+}
+
+#orange {
+    font-family: 'LatoWebHairline';
+    text-align: right;
+    position: absolute;
+    top: 81px;
+    left: 110px;
+    font-size: 106px;
+    color: #ffb22d;
+    font-weight: 100;
+    line-height: 33px;
+}
+
+#orange span {
+    font-family: 'LatoWebHairline';
+    letter-spacing: normal;
+    font-size: 26px;
+}
+
+#green {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 127px;
+    left: 208px;
+    font-size: 56px;
+    color: #10fc47;
+    font-weight: 100;
+    line-height: 49px;
+    letter-spacing: 6px;
+}
+
+#green span {
+    font-family: 'LatoWebHairline';
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#green1 {
+    font-family: 'LatoWebHairline';
+    font-size: 56px !important;
+    letter-spacing: 9px !important;
+}
+
+#purple {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 84px;
+    left: 642px;
+    font-size: 66px;
+    color: #d172fd;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+#purple span {
+    font-family: 'LatoWebHairline';
+    font-size: 32px;
+}
+
+#red {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 82px;
+    left: 883px;
+    font-size: 45px;
+    color: #cc6699;
+    font-weight: 100;
+    line-height: 45px;
+    letter-spacing: 5px;
+}
+
+#red span {
+    font-family: 'LatoWebHairline';
+    font-size: 40px;
+}
+
+#white {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 210px;
+    left: 633px;
+    font-size: 66px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 45px;
+    letter-spacing: 8px;
+}
+
+.aboutSlogan {
+    font-family: 'LatoWebHairline';
+    text-align: center;
+    color: #ff0090;
+    font-size: 44px;
+}
+
+.aboutSlogan span {
+    font-family: 'LatoWebHairline';
+    font-size: 67px;
+}
+
+/*about me*/
+.aboutMeWrapper {
+    float: right;
+    margin-right: 46px;
+    width: 41%;
+    margin-top: 50px;
+}
+
+.paragraph {
+    text-align: justify;
+    color: rgba(255, 255, 255, .6);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.aboutMeText {
+    line-height: 200px;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: #0adfe2;
+    border: 2px solid;
+    padding: 30px;
+}
+
+#aboutMe {
+    background-image: url("../images/aboutMe.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 1541px;
+}
+
+#myStudents {
+    text-align: center;
+    background-image: url("../images/Mystudensbackground.png");
+    background-repeat: no-repeat;
+}
+
+.studentsText {
+    font-family: 'LatoWebLight';
+    font-size: 25px;
+    color: #0adfe2;
+    text-transform: uppercase;
+    padding-top: 20px;
+    text-shadow: 1px 1px 26px #0adfe2, 0 0 26px #0adfe2;
+}
+
+.carouselWrapper {
+    position: relative;
+    width: 72%;
+    height: 300px;;
+    margin: 0 auto;
+}
+
+.carousel {
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35%;
+    top: 50%;
+    margin-top: -125px;
+    width: 70%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 26px white;
+    padding: 10px;
+
+}
+
+#myStudentsButton {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -139.5px;
+}
+
+.myStudentsText {
+    font-family: 'LatoWebLight';
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px auto;
+    width: 33.3%;
+}
+
+.arrow {
+    box-shadow: 0px 0px 16px white;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+#left {
+    margin-top: 100px;
+    float: left;
+}
+
+#right {
+    margin-top: 100px;
+    float: right;
+}
+
+.contactsWrapper {
+    position: relative;
+    height: 737px;
+    background: url("../images/newContactsBackground.png") no-repeat right;
+}
+
+#contactsButton {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    margin-left: -139.5px;
+    margin-top: -44.5px;
+    color: #31f155;
+    border: 3px solid #31f155;
+    box-shadow: 0px 0px 7px 0px #31f155;
+    text-shadow: 0px 0px 15px #31f155;
+}
