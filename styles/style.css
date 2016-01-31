@@ -61,10 +61,10 @@ TODO: Andrey Title
     position: absolute;
     top: 0;
     left: 357px;
-    font-family: "Attentica4F";
+    font-family: "Attentica4F", serif;
     font-size: 197px;
     line-height: 210px;
-    text-shadow: 1px 0px 115px rgb(195, 15, 247);
+    text-shadow: 1px 0 115px rgb(195, 15, 247);
     text-align: center;
     color: #ffffff;
     letter-spacing: 60px;
@@ -88,7 +88,7 @@ TODO: Andrey Title
     line-height: 48px;
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 7.5px;
+    letter-spacing: 7px;
 }
 
 .contentWrap {
@@ -129,8 +129,8 @@ TODO: Andrey Title
 }
 
 .button {
-    box-shadow: 2px 3px 7px 0px rgba(195, 15, 247, .35);
-    text-shadow: 0px 0px 15px rgb(195, 15, 247);
+    box-shadow: 2px 3px 7px 0 rgba(195, 15, 247, .35);
+    text-shadow: 0 0 15px rgb(195, 15, 247);
     height: 89px;
     width: 279px;
     background-color: transparent;
@@ -158,7 +158,7 @@ button:active, button:hover {
 .nextScreen {
     min-width: 37%;
     position: absolute;
-    bottom: 0%;
+    bottom: 0;
     left: 50%;
     margin-left: -18.5%;
     text-align: center;
@@ -480,5 +480,40 @@ button:active, button:hover {
     margin-top: 50px;
     font-family: 'LatoWeb';
     font-size: 20px;
-    padding:0;
+    padding: 0;
+}
+
+.contactsWrapper_information {
+    text-align: start;
+    text-transform: uppercase;
+    margin-left: 5.3%;
+    height: 100%;
+    width: 400px;
+    color: #ffffff;
+}
+
+.contactsWrapper_information-name {
+    font-size: 60px;
+    padding-top: 168px;
+    font-family: 'LatoWebLight';
+
+}
+
+.contactsWrapper_information-title {
+    text-transform: none;
+    font-size: 35px;
+    padding-top: 55px;
+    font-family: 'LatoWebLight';
+}
+
+.contactsWrapper_information-contacts {
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: 'LatoWebLight';
+    color: #50e3c2;
+    text-transform: none;
+}
+
+.contactsWrapper_information-social svg {
+    margin: 0 10px;
 }
