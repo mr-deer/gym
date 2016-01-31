@@ -1,12 +1,7 @@
 @font-face {
-    font-family: 'latoregular';
-    src: url('latoregular-webfont.eot');
-    src: url('latoregular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('latoregular-webfont.woff2') format('woff2'),
-    url('latoregular-webfont.woff') format('woff'),
-    url('latoregular-webfont.ttf') format('truetype'),
-    url('latoregular-webfont.svg#latoregular') format('svg');
-    font-weight: normal;
+    font-family: "Attentica4F";
+    src: url("../fonts/Attentica4F-UltraLight.otf") format("otf");
+    src: url("../fonts/Attentica 4F UltraLight.ttf") format("truetype");
     font-style: normal;
-
+    font-weight: normal;
 }

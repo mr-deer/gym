@@ -1,25 +1,8 @@
-@font-face {
-    font-family: "Attentica4F";
-    src: url("../fonts/Attentica4F-UltraLight.otf") format("otf");
-    src: url("../fonts/Attentica 4F UltraLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
-
-/*@font-face {
-    font-family: "LatoRegular";
-    src: url("../fonts/latoregular-webfont.woff") format("woff");
-    src: url("../fonts/latoregular-webfont.woff2") format("woff2");
-}
-@font-face {
-    font-family: "LatoHairline";
-    src: url("../fonts/Lato-Hairline.ttf") format("truetype");
-}*/
 * {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-family: "LatoWeb", serif;
+    font-family: 'LatoWeb', serif;
     box-sizing: border-box;
 }
 
@@ -68,15 +51,14 @@ TODO: Andrey Title
     font-family: "Attentica4F", serif;
     font-size: 197px;
     line-height: 210px;
-    text-shadow: 1px 0 115px rgb(195, 15, 247);
+    letter-spacing: 60px;
+    text-shadow: 0 0 115px rgb(195, 15, 247);
     text-align: center;
     color: #ffffff;
-    letter-spacing: 60px;
     text-transform: uppercase;
     z-index: 1;
-    height: 42vh;
-    /* background-color: #10fc47; */
     /*viewport width*/
+    height: 42vh;
     font-size: 10.2vw;
     letter-spacing: 3.1vw;
     line-height: 10.9vw;
@@ -176,12 +158,13 @@ button:active, button:hover {
     text-transform: uppercase;
     font-size: 20px;
     letter-spacing: 5px;
-    text-shadow: 1px 1px 26px rgba(0, 255, 0, .3), 0 0 26px rgba(0, 255, 0, .3);
+    text-shadow: 1px 1px 26px rgba(0, 255, 0, .3),
+        0 0 26px rgba(0, 255, 0, .3);
 }
 
 .nextScreen button {
     border: none;
-    outline: none;
+    outline-style: none;
 }
 
 #aboutPersonal {
@@ -207,7 +190,7 @@ button:active, button:hover {
 
 
 .aboutSlogan {
-    font-family: 'LatoWebHairline';
+    font-family: 'LatoWebHairline', serif;
     text-align: center;
     color: #ff0090;
     font-size: 44px;
