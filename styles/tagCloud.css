@@ -1,0 +1,128 @@
+#blue {
+    font-family: 'LatoWebHairline';
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 70px;
+    color: #3399ff;
+    font-weight: 100;
+    line-height: 38px;
+    letter-spacing: 5px;
+}
+
+#blue span {
+    font-family: 'LatoWebHairline';
+    font-size: 32px;
+}
+
+#yellow {
+    font-family: 'LatoWebHairline';
+    position: absolute;
+    top: -13px;
+    left: 777px;
+    font-size: 35px;
+    color: #fcfc5f;
+    font-weight: 100;
+    letter-spacing: 3px;
+    line-height: 35px;
+
+}
+
+#yellow span {
+    font-family: 'LatoWebHairline';
+    letter-spacing: 8px;
+    font-size: 62px;
+
+}
+
+#orange {
+    font-family: 'LatoWebHairline';
+    text-align: right;
+    position: absolute;
+    top: 81px;
+    left: 110px;
+    font-size: 106px;
+    color: #ffb22d;
+    font-weight: 100;
+    line-height: 33px;
+}
+
+#orange span {
+    font-family: 'LatoWebHairline';
+    letter-spacing: normal;
+    font-size: 26px;
+}
+
+#green {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 127px;
+    left: 208px;
+    font-size: 56px;
+    color: #10fc47;
+    font-weight: 100;
+    line-height: 49px;
+    letter-spacing: 6px;
+}
+
+#green span {
+    font-family: 'LatoWebHairline';
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+#green1 {
+    font-family: 'LatoWebHairline';
+    font-size: 56px !important;
+    letter-spacing: 9px !important;
+}
+
+#purple {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 84px;
+    left: 642px;
+    font-size: 66px;
+    color: #d172fd;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+#purple span {
+    font-family: 'LatoWebHairline';
+    font-size: 32px;
+}
+
+#red {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 82px;
+    left: 883px;
+    font-size: 45px;
+    color: #cc6699;
+    font-weight: 100;
+    line-height: 45px;
+    letter-spacing: 5px;
+}
+
+#red span {
+    font-family: 'LatoWebHairline';
+    font-size: 40px;
+}
+
+#white {
+    font-family: 'LatoWebHairline';
+    text-align: left;
+    position: absolute;
+    top: 210px;
+    left: 633px;
+    font-size: 66px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 45px;
+    letter-spacing: 8px;
+}
