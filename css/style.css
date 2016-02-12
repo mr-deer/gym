@@ -10,18 +10,7 @@ body{
     font: 1.26vw "Lato Regular", san-serif;
     letter-spacing: 0.3vw;
 }
-@font-face {
-    font-family: Attentica Light;
-    src: url('../fonts/Attentica%204F%20UltraLight.ttf');
-}
-@font-face {
-    font-family: Lato Regular;
-    src: url('../fonts/Lato/Lato-Regular.ttf');
-}
-@font-face {
-    font-family: Lato Light;
-    src: url('../fonts/Lato/Lato-Light.ttf');
-}
+
 .main{
     max-width: 90%;
     height:100%;
@@ -373,5 +362,17 @@ body{
     z-index: 9999;
 }
 
+@font-face {
+    font-family: Attentica Light;
+    src: url('../fonts/Attentica%204F%20UltraLight.ttf');
+}
+@font-face {
+    font-family: Lato Regular;
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+@font-face {
+    font-family: Lato Light;
+    src: url('../fonts/Lato/Lato-Light.ttf');
+}
 
 
