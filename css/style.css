@@ -128,10 +128,10 @@ body{
 }
 .representative-photo{
     position:absolute;
-    top:11%;
-    left:32.5%;
-    width:28.1vw;
-    height:89vh;
+    bottom:0;
+    left:31%;
+    width:30vw;
+    height:91vh;
     z-index:1;
 }
 .representative .info-line3{
@@ -185,6 +185,7 @@ body{
     background-color: #1b1b2a;
     background-image: url("../images/layout/about-me-bg.png");
     background-repeat: no-repeat;
+    background-size:100% 100%;
 }
 .about-me-headline{
     text-align:center;
@@ -211,7 +212,7 @@ body{
     letter-spacing:0.12vw;
     color:#b4b9c5;
     line-height:2.3vw;
-    margin-bottom:12%;
+    margin-bottom:20%;
 }
 
 /* Result Block */
