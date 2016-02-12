@@ -363,10 +363,6 @@ body{
 }
 
 @font-face {
-    font-family: Attentica Light;
-    src: url('../fonts/Attentica%204F%20UltraLight.ttf');
-}
-@font-face {
     font-family: Lato Regular;
     src: url('../fonts/Lato/Lato-Regular.ttf');
 }
