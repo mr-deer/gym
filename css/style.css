@@ -85,30 +85,31 @@ body{
 
 /* Representative Block */
 .representative{
-    background: #3b3653;
+    background: url('../images/layout/bg-andrey.jpg')no-repeat 0 0;
+    background-size: 100% 100%;
     height: 100vh;
     text-align:center;
 }
 .representative p{
     text-transform: uppercase;
-    margin-bottom:2.5%;
-}
-.representative-headline{
-    margin: 0 auto;
-    text-transform: uppercase;
-    font: 11.2vw "Attentica Light", san-serif;
-    text-shadow: 0 0 6vw rgba(43, 24, 246, 0.8);
-    letter-spacing: 3.1vw;
-    line-height: 1.2;
 }
 .representative .tagline{
     float: left;
-    margin-top: 8%;
+    position:absolute;
+    bottom:22.407%;
     width: 26%;
-    text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
+    text-shadow: 0px 0px 7px rgba(210, 223, 252,0.6);
+}
+.representative .tagline p{
+    margin-bottom:2.8%;
+}
+.representative .tagline p:last-child{
+    margin-bottom:0;
 }
 .aside{
-    float:right;
+    position:absolute;
+    bottom:20%;
+    right: 3%;
 }
 .representative .info-line1, .representative .info-line2{
     float:right;
@@ -116,7 +117,7 @@ body{
     text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
 }
 .representative .info-line2{
-    margin-top:2.6%;
+    margin-top:3.5%;
     font-size:1vw;
     letter-spacing:0.22vw;
 }
@@ -124,7 +125,7 @@ body{
     float: right;
     text-align: right;
     width:100%;
-    margin: 7.5% 15% 0 0;
+    margin: 12.5% 15% 0 0;
 }
 .representative-photo{
     position:absolute;
@@ -137,10 +138,11 @@ body{
 .representative .info-line3{
     position:absolute;
     z-index:2;
-    bottom:10%;
+    bottom:11%;
+    right:33%;
     color: #cffdd2;
     font-size:1vw;
-    letter-spacing:0.23vw;
+    letter-spacing:0.28vw;
     text-shadow: 0px 0px 11px rgba(43, 255, 35, 0.8);
 }
 .arrow-button a{
