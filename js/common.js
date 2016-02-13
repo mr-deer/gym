@@ -7,11 +7,11 @@ $(document).on('ready', function () {
 
     $(function() {
         $('#information-block .delay-load').each(function(n) {
-            $(this).delay(n*900).fadeTo(1500, 1).css('display', 'block');
+            $(this).delay(n*900).fadeTo(500, 1).css('display', 'block');
         })
 
         $('.delay-load').each(function(n) {
-            $(this).delay(n*900).fadeTo(1500, 1);
+            $(this).delay(n*900).fadeTo(800, 1);
         })
     })
 });
