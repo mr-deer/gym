@@ -10,6 +10,10 @@ body{
     font: 1.26vw "Lato Regular", san-serif;
     letter-spacing: 0.3vw;
 }
+.delay-load{
+    display:none;
+}
+
 
 .main{
     max-width: 90%;
@@ -151,7 +155,7 @@ body{
     height:100vh;
 }
 .information img{
-    display:block;
+   /* display:block;*/
     margin:1.8% auto;
 }
 .information-topImg{
@@ -343,7 +347,7 @@ body{
 .bx-wrapper img {
     margin: 0 auto;
     max-width: 100%;
-    display: block;
+  /*  display: block;*/
 }
 
 .bx-wrapper .bx-next {
