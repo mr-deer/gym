@@ -7,10 +7,10 @@ $(document).on('ready', function () {
 
     $(function() {
         $('#information-block .delay-load').each(function(n) {
-            $(this).delay(n*700).fadeTo(400, 1).css('display', 'block');
+            $(this).delay(n*700).fadeTo(500, 1).css('display', 'block');
         })
         $('.delay-load').each(function(n) {
-            $(this).delay(n*400).fadeTo(1000, 1);
+            $(this).delay(n*200).fadeTo(300, 1);
         })
     })
 });
