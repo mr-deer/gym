@@ -70,10 +70,10 @@ body{
 
 /* Representative Block */
 .representative{
-    background: #3b3653;
-    background: url('../images/layout/bg-andrey_mini.jpg')no-repeat 0 0;
-    background-size: 100% 100%;
-    height: 100vh;
+
+    background: url('../images/layout/bg-andrey_mini.jpg')no-repeat center  center;
+    background-size: auto 100%;
+    height:100vh;
     text-align:center;
 }
 .representative .info-line1{
@@ -244,21 +244,21 @@ body{
 /* Feedback */
 .feedback{
     background:#1a181c;
-    background-image: url("../images/layout/feedback-bg.jpg");
+    background-image: url("../images/layout/feedback-bg_mini.jpg");
     background-repeat: no-repeat;
+    background-size: auto 100%;
     background-position: 50% 0;
-    height:538px;
+    height:70vh;
 }
 .contact-info{
     width:33%;
     float:left;
-    margin-top: 9%;
+    margin-top: 15vh;
     padding-left:10px;
 }
 .contact-info h1{
     text-transform: uppercase;
     font-size: 2.8vw;
-
 }
 .contact-info h1, .contact-info h2{
     font-family: "Lato Light", sans-serif;
@@ -302,7 +302,7 @@ body{
 .watchword{
     width:33%;
     float:left;
-    margin-top:13%;
+    margin-top:25vh;
     text-align:center;
 }
 .watchword .slogan{
@@ -327,14 +327,13 @@ body{
 
 
 
-
 /* SLIDER */
 
 .bx-wrapper {
     border: 1px solid white;
     width:60%;
     position: relative;
-    padding: 5px;
+    padding: 50px 0;
     *zoom: 1;
 
     -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
