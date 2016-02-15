@@ -10,11 +10,6 @@ body{
     font: 1.26vw "Lato Regular", san-serif;
     letter-spacing: 0.3vw;
 }
-.delay-load{
-    display:none;
-}
-
-
 .main{
     max-width: 90%;
     height:100%;
@@ -73,30 +68,18 @@ body{
     -ms-user-select: none;
 }
 
-@font-face {
-    font-family: Attentica Light;
-    src: url('../fonts/Attentica%204F%20UltraLight.ttf');
-}
-
 /* Representative Block */
 .representative{
     background: #3b3653;
-   /* background: url('../images/layout/bg-andrey.jpg')no-repeat 0 0;
-    background-size: 100% 100%;*/
+    background: url('../images/layout/bg-andrey_mini.jpg')no-repeat 0 0;
+    background-size: 100% 100%;
     height: 100vh;
     text-align:center;
-}
-.representative-headline{
-    margin: 0 auto;
-    text-transform: uppercase;
-    font: 11.2vw "Attentica Light", san-serif;
-    text-shadow: 0 0 6vw rgba(43, 24, 246, 0.8);
-    letter-spacing: 3.1vw;
-    line-height: 1.2;
 }
 .representative .info-line1{
     display:block;
     position:relative;
+    top:47%;
     text-align:right;
     right:1%;
     text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
@@ -157,8 +140,8 @@ body{
 .arrow-button a{
     position:absolute;
     display:block;
-    width:3.6%;
-    height:4.4%;
+    width:47px;
+    height:26px;
     bottom: 2.55%;
     left:48%;
     z-index:2;
@@ -174,7 +157,7 @@ body{
     height:100vh;
 }
 .information img{
-   /* display:block;*/
+    display:block;
     margin:1.8% auto;
 }
 .information-topImg{
@@ -196,7 +179,7 @@ body{
     background-color: #1b1b2a;
     background-image: url("../images/layout/about-me-bg.png");
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size:50% 100%;
 }
 .about-me-headline{
     text-align:center;
@@ -261,7 +244,7 @@ body{
 /* Feedback */
 .feedback{
     background:#1a181c;
-    background-image: url("../images/layout/feedback-bg.png");
+    background-image: url("../images/layout/feedback-bg.jpg");
     background-repeat: no-repeat;
     background-position: 50% 0;
     height:538px;
@@ -387,11 +370,11 @@ body{
 
 @font-face {
     font-family: Lato Regular;
-    src: url('../fonts/Lato/Lato-Regular.ttf');
+    src: url('../fonts/Lato/Lato-Regular.woff');
 }
 @font-face {
     font-family: Lato Light;
-    src: url('../fonts/Lato/Lato-Light.ttf');
+    src: url('../fonts/Lato/Lato-Light.woff');
 }
 
 
