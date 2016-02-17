@@ -145,6 +145,15 @@ body{
 }
 
 
+@media (max-width: 376px) {
+    .representative {
+        height: 250px;
+    }
+    .representative .aside{
+        bottom:14.5%;
+    }
+}
+
 /* Tablet  styles */
 
 @media (min-width: 600px){
@@ -185,7 +194,7 @@ body{
         font-size:13px;
     }
     .results-headline .my-students{
-        width:80%;
+        width:60%;
     }
     .bx-wrapper .bx-prev {
         left: -85px;

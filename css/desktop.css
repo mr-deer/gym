@@ -349,8 +349,8 @@ body{
 
 .bx-wrapper {
     position: relative;
-    border: 1px solid white;
     width: 50%;
+    border: 1px solid white;
     *zoom: 1;
 
     -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
@@ -368,6 +368,14 @@ body{
     left: 0!important;
     bottom: 0!important;
     right: 0!important;
+
+}
+.bx-wrapper .bx-viewport .bxslider{
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    bottom: 0!important;
+    right: 0!important;
 }
 
 .bx-wrapper .bx-prev {
@@ -376,7 +384,8 @@ body{
 }
 .bx-wrapper img {
     margin: 0 auto;
-  /*  display: block;*/
+    width:44vw;
+    height:50%;
 }
 
 .bx-wrapper .bx-next {
