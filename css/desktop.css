@@ -345,19 +345,29 @@ body{
 
 /* SLIDER */
 
+
+
 .bx-wrapper {
-    border: 1px solid white;
-    width:70vw;
     position: relative;
-    padding: 50px 0;
+    border: 1px solid white;
+    width: 50%;
     *zoom: 1;
 
     -webkit-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
     -moz-box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
     box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
 }
-.bx-wrapper .bx-viewport{
-    height:65vh!important;
+.bx-wrapper:before{
+    content: "";
+    display: block;
+    padding-top: 56.25%;
+}
+.bx-wrapper .bx-viewport{ /* important is shit, but or important or go to bxslider library; my english is shit too ;) */
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    bottom: 0!important;
+    right: 0!important;
 }
 
 .bx-wrapper .bx-prev {
@@ -366,7 +376,6 @@ body{
 }
 .bx-wrapper img {
     margin: 0 auto;
-    max-width: 100%;
   /*  display: block;*/
 }
 
