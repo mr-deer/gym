@@ -70,7 +70,6 @@ body{
 
 /* Representative Block */
 .representative{
-
     background: url('../images/layout/bg-andrey_mini.jpg')no-repeat center  center;
     background-size: auto 100%;
     height:100vh;
@@ -78,7 +77,7 @@ body{
 }
 .representative .info-line4{
     text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
-    margin-bottom: 8%;
+    margin-bottom: 6%;
 }
 .representative .info-line1{
     display:block;
@@ -94,7 +93,7 @@ body{
 .representative .tagline{
     float: left;
     position:absolute;
-    bottom:22.407%;
+    bottom:25%;
     width: 26%;
     text-shadow: 0px 0px 7px rgba(210, 223, 252,0.6);
 }
@@ -118,7 +117,7 @@ body{
     letter-spacing:0.22vw;
 }
 .representative .contact-number{
-    margin-bottom:5%;
+    margin-bottom:4%;
     text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
     font-size: 1vw;
 }
