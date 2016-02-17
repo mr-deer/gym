@@ -1,0 +1,54 @@
+body{
+    font: 12px "Lato Regular", san-serif;
+    letter-spacing: 1px;
+}
+.button{
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+/* Representative Block */
+.representative{
+    height:300px;
+    position:relative;
+}
+.representative .aside{
+    text-align:right;
+    bottom:16.5%;
+}
+.representative .aside .contact-number{
+    font-size: 10px;
+}
+.representative .aside .info-line2{
+    font-size: 10px;
+}
+.representative .info-line3{
+    position:relative;
+    top:255px;
+    left:0;
+    font-size: 10px;
+}
+
+/* Tablet  styles */
+@media (min-width: 600px){
+    body{
+        font-size: 13px
+    }
+    .representative{
+        height:500px;
+    }
+    .representative .aside .contact-number{
+        font-size: 11.5px;
+    }
+    .representative .info-line3{
+        font-size:11.5px;
+    }
+    .representative .info-line3{
+        font-size:12px;
+        top:444px;
+    }
+    .button{
+        font-size: 14px;
+        padding: 13px 23px;
+    }
+}
