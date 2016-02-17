@@ -149,8 +149,8 @@ body{
     .representative {
         height: 250px;
     }
-    .representative .aside{
-        bottom:14.5%;
+    .representative .main{
+        display:none;
     }
 }
 
