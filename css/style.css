@@ -76,12 +76,16 @@ body{
     height:100vh;
     text-align:center;
 }
+.representative .info-line4{
+    text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
+    margin-bottom: 8%;
+}
 .representative .info-line1{
     display:block;
     position:relative;
     top:47%;
     text-align:right;
-    right:1%;
+    right:7%;
     text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
 }
 .representative p{
@@ -112,6 +116,11 @@ body{
     margin-top:4%;
     font-size:1vw;
     letter-spacing:0.22vw;
+}
+.representative .contact-number{
+    margin-bottom:5%;
+    text-shadow: 0px 0px 9px rgba(210, 223, 252,0.6);
+    font-size: 1vw;
 }
 .representative .btn {
     width:100%;
@@ -205,6 +214,9 @@ body{
     line-height:2.3vw;
     margin-bottom:20%;
 }
+.about-me-info li{
+    margin-left:4%;
+}
 
 /* Result Block */
 .results{
@@ -223,12 +235,9 @@ body{
     letter-spacing:0.08vw;
     text-transform:uppercase;
 }
-.results .btn{
-    margin:3.7% 0;
-}
 
 .results p{
-    margin: 0 auto 3%;
+    margin: 3.7% auto 3%;
     width:37.5%;
     text-align:justify;
     font-size: 0.92vw;
@@ -257,12 +266,18 @@ body{
     text-transform: uppercase;
     font-size: 2.8vw;
 }
-.contact-info h1, .contact-info h2{
+.contact-info h1, .contact-info h2, .contact-info h3{
     font-family: "Lato Light", sans-serif;
     font-weight:normal;
     color: #ffffff;
     margin-bottom: 4.8%;
     text-shadow: 0px 0px 11px #d2dffc;
+}
+.contact-info h2{
+    margin-bottom: 0;
+}
+.contact-info h3{
+    font-size: 1.5em;
 }
 .contact-link{
     text-decoration:none;
