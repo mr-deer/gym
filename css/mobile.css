@@ -28,8 +28,31 @@ body{
     left:0;
     font-size: 10px;
 }
+/* Information Block */
+.information{
+    background: #39214f;
+    height:auto;
+}
+.information img{
+    display:block;
+    margin:1.8% auto;
+}
+.information-topImg{
+    margin-top:5%;
+    width:80%;
+    height:auto;
+}
+.information-cloudImg{
+    width:80%;
+    height:auto;
+}
+.information-bottomImg{
+    width:55%;
+    height:auto;
+}
 
 /* Tablet  styles */
+
 @media (min-width: 600px){
     body{
         font-size: 13px
